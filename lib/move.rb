@@ -13,5 +13,5 @@ def input_to_index(int)
 end
 
 def move(array, index, value = "X")
-  board[position]
+  array[index] = value;
 end
