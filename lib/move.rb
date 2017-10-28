@@ -8,4 +8,6 @@ end
 
 # code your input_to_index and move method here!
 def input_to_index(int)
+  num = int.to_i
+  return num-1
 end
